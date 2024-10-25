@@ -23,7 +23,7 @@ const copyIndexHtml = () => {
 
 /* In dev mode we run the esbuild.mjs directly from root, while in prod
 we run it already from `_build/default` (see `dune` file) */
-const entryPoint = nodeEnv === "production" ? 'output/src/App.mjs' : '_build/default/output/src/App.mjs';
+const entryPoint = nodeEnv === "production" ? 'output/src/app.mjs' : '_build/default/output/src/app.mjs';
 
 // Build options
 /** @type {import('esbuild').BuildOptions} */
