@@ -2,6 +2,6 @@
  (name app)
  (modes melange)
  (libraries melange-json reason-react melange-fetch)
- (melange.runtime_deps img/camel-fun.jpg)
+ (melange.runtime_deps img/camel-fun.jpg username_input.module.css)
  (preprocess
   (pps melange.ppx reason-react-ppx melange-json.ppx)))
